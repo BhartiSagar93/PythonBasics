@@ -5,8 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 
-#service_obj = Service("/Users/rahulshetty/documents/chromedriver")
-#driver = webdriver.Chrome(service=service_obj)
+
 
 driver.get("https://rahulshettyacademy.com/dropdownsPractise/")
 
