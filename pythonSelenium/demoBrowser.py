@@ -5,16 +5,6 @@ driver = webdriver.Chrome()
 from selenium.webdriver.chrome.service import Service
 #-- Chrome
 
-#-- Firefox
-# service_obj = Service("/Users/rahulshetty/documents/geckodriver")
-# driver = webdriver.Firefox(service=service_obj)
-
-#-- Edge
-# service_obj = Service("/Users/rahulshetty/documents/msedgedriver")
-# driver = webdriver.Edge(service=service_obj)
-
-
-
 
 driver.maximize_window()
 driver.get("https://rahulshettyacademy.com")
